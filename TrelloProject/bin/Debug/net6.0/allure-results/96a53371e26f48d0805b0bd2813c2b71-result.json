@@ -1,0 +1,154 @@
+{
+  "uuid": "01a4ca4c15d441b39af3d19a84cc382d",
+  "historyId": "To verify au call functionality for Board , List and Card209757640",
+  "fullName": "To verify au call functionality for Board , List and Card",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "SHEZA-ASHRAF"
+    },
+    {
+      "name": "feature",
+      "value": "auTesting"
+    },
+    {
+      "name": "tag",
+      "value": "auFeature"
+    }
+  ],
+  "links": [],
+  "name": "To verify au call functionality for Board , List and Card",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Tried to run command without establishing a connection",
+    "trace": "OpenQA.Selenium.WebDriverException: Tried to run command without establishing a connection\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at TrelloProject.Support.BaseMethods.Click(By locator) in C:\\Users\\sheza.ashraf\\Downloads\\TrelloProject\\TrelloProject\\Support\\BaseMethods.cs:line 36\r\n   at TrelloProject.PageObject.LoginPage.ClickOnUserProfile() in C:\\Users\\sheza.ashraf\\Downloads\\TrelloProject\\TrelloProject\\PageObject\\LoginPage.cs:line 57\r\n   at TrelloProject.Support.Hooks.AfterScenario() in C:\\Users\\sheza.ashraf\\Downloads\\TrelloProject\\TrelloProject\\Support\\Hooks.cs:line 42\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  New board is created using an API call",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1722223958604,
+      "stop": 1722223958609
+    },
+    {
+      "name": "When  Board Title is retrieved using another API call",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1722223958612,
+      "stop": 1722223958612
+    },
+    {
+      "name": "Then  List named \"QA Task\" is created for the board using an API call",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1722223958612,
+      "stop": 1722223958613
+    },
+    {
+      "name": "Then  Card named \"Test case creation\" is added to the list through an API call",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1722223958613,
+      "stop": 1722223958613
+    },
+    {
+      "name": "Then  Another member \"xyz\" is invited to the board through an their \"xyz@gmail.com\"",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1722223958613,
+      "stop": 1722223958613
+    },
+    {
+      "name": "Then  the notification is received by another member",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1722223958613,
+      "stop": 1722223958613
+    },
+    {
+      "name": "Then  Board is deleted via an API call",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1722223958613,
+      "stop": 1722223958613
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "MemberName",
+      "value": "xyz"
+    },
+    {
+      "name": "EmailAddress",
+      "value": "xyz@gmail.com"
+    }
+  ],
+  "start": 1722223958589,
+  "stop": 1722223958621
+}

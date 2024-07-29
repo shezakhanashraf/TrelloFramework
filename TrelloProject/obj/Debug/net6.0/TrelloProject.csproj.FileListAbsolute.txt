@@ -278,3 +278,4 @@ C:\Users\sheza.ashraf\Downloads\TrelloProject\TrelloProject\obj\Debug\net6.0\ref
 C:\Users\sheza.ashraf\Downloads\TrelloProject\TrelloProject\obj\Debug\net6.0\TrelloProject.pdb
 C:\Users\sheza.ashraf\Downloads\TrelloProject\TrelloProject\obj\Debug\net6.0\TrelloProject.genruntimeconfig.cache
 C:\Users\sheza.ashraf\Downloads\TrelloProject\TrelloProject\obj\Debug\net6.0\ref\TrelloProject.dll
+C:\Users\sheza.ashraf\Downloads\TrelloProject\TrelloProject\obj\Debug\net6.0\TrelloProject.sourcelink.json

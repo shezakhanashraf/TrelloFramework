@@ -78,7 +78,7 @@ namespace TrelloProject.FeatureFile
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("To verify au call functionality for Board , List and Card")]
-        [NUnit.Framework.TestCaseAttribute("useraccount197", "automationtestingtrello@gmail.com", null)]
+        [NUnit.Framework.TestCaseAttribute("xyz", "xyz@gmail.com", null)]
         public virtual void ToVerifyAuCallFunctionalityForBoardListAndCard(string memberName, string emailAddress, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;

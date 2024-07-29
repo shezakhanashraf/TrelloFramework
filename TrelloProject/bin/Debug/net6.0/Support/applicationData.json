@@ -1,0 +1,17 @@
+{
+  "browserName": "firefox",
+  "applicationUrl": "https://trello.com/",
+  "userOneUsername": "",
+  "userOnePassword": "",
+  "userTwoUsername": "",
+  "userTwoPassword": "",
+  "API_KEY": "",
+  "TOKEN": "",
+  "API_KEY_TRELLO": "",
+  "TOKEN_TRELLO": "",
+  "BOARD_BASE_URL": "https://api.trello.com/1/boards/",
+  "CREATE_LIST_URL": "https://api.trello.com/1/lists",
+  "CREATE_CARD_URL": "https://api.trello.com/1/cards",
+  "NOTIFICATION_URL": "https://api.trello.com/1/notifications/",
+  "NOTIFICATION_ID_URL": "https://api.trello.com/1/members/me/notificationGroups"
+}

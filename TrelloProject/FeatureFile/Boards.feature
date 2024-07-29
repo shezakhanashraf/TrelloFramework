@@ -17,7 +17,7 @@ Scenario Outline: Initial User invites another user to a recently created board 
 
 Examples:
   | BoardTitle             | AnotherUser     |
-  | Trello Testing for au  | trello account  |
+  | Trello Testing for au  |  account        |
 
   @SecondUserCase
 Scenario Outline: Invited user views board invitation request sent by Initial user
@@ -26,7 +26,7 @@ Scenario Outline: Invited user views board invitation request sent by Initial us
 
   Examples:
   | InvitedUser            | InitialUser  |
-  | Trello Testing for au  | Sheza Ashraf |
+  | Trello Testing for au  | Sheza        |
 
 
 Scenario Outline: User deletes a Trello board

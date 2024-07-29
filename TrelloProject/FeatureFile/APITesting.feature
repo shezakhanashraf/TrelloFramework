@@ -12,4 +12,4 @@ Feature: auTesting
 
 	Examples:
   | MemberName     | EmailAddress						     |
-  | useraccount197 | automationtestingtrello@gmail.com       |
+  | xyz            | xyz@gmail.com                           |

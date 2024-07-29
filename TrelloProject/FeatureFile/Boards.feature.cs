@@ -124,7 +124,7 @@ this.ScenarioInitialize(scenarioInfo);
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Initial User invites another user to a recently created board in Trello")]
-        [NUnit.Framework.TestCaseAttribute("Trello Testing for au", "trello account", null)]
+        [NUnit.Framework.TestCaseAttribute("Trello Testing for au", "account", null)]
         public virtual void InitialUserInvitesAnotherUserToARecentlyCreatedBoardInTrello(string boardTitle, string anotherUser, string[] exampleTags)
         {
             string[] tagsOfScenario = exampleTags;
@@ -168,7 +168,7 @@ this.ScenarioInitialize(scenarioInfo);
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Invited user views board invitation request sent by Initial user")]
         [NUnit.Framework.CategoryAttribute("SecondUserCase")]
-        [NUnit.Framework.TestCaseAttribute("Trello Testing for au", "Sheza Ashraf", null)]
+        [NUnit.Framework.TestCaseAttribute("Trello Testing for au", "Sheza", null)]
         public virtual void InvitedUserViewsBoardInvitationRequestSentByInitialUser(string invitedUser, string initialUser, string[] exampleTags)
         {
             string[] @__tags = new string[] {
